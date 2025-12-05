@@ -1,6 +1,5 @@
 import React from 'react';
 import { useExecutionStore } from '../store/executionStore';
-import { HeapBlock } from '../types';
 
 export const HeapView: React.FC = () => {
   const { heap } = useExecutionStore();

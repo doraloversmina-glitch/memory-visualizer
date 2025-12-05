@@ -14,7 +14,6 @@ export class Interpreter {
   private state: ExecutionState;
   private nextStackAddress = 0x7FFF_F000;
   private nextHeapAddress = 0x0040_0000;
-  private heapBlockCounter = 0;
 
   constructor(code: string) {
     this.state = {

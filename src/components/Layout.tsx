@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Play, Square, SkipForward, RotateCcw, ChevronLeft, Pause } from 'lucide-react';
+import { Play, SkipForward, RotateCcw, ChevronLeft, Pause } from 'lucide-react';
 import { useExecutionStore } from '../store/executionStore';
 import { CodeEditor } from './CodeEditor';
 import { StackView } from './StackView';

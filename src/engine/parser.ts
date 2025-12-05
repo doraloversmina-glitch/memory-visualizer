@@ -426,7 +426,7 @@ export class CParser {
 
     return {
       type: 'if_statement',
-      children: elseBlock ? [condition, thenBlock, elseBlock] : [condition, thenBlock],
+      children: elseBlock ? [condition, thenBlock!, elseBlock] : [condition, thenBlock!],
       line: this.currentLine
     };
   }

@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { ExecutionState, StackFrame } from '../types';
+import { ExecutionState } from '../types';
 import { CParser } from '../engine/parser';
 import { Interpreter } from '../engine/interpreter';
 
